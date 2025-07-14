@@ -47,7 +47,7 @@ console.log(newarr2)
 
 console.log('A',myarr2)
 
-const newarr2_1=myarr2.slice(1,3)
+const newarr2_1=myarr2.splice(1,3)
 
 console.log(newarr2_1)
 
