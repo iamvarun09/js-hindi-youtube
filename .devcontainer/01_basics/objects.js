@@ -93,3 +93,35 @@ const myobj5={
 
 const myobj6={...myobj4,...myobj5}
 console.log(myobj6)
+
+const user=[
+  {
+    name:"venketeshwara",
+    age:21,
+  },
+    {
+        name:"maharudra",
+        age:22,
+    },
+
+
+
+]
+console.log(user[0].name)
+
+console.log(Object.keys(newtinder))
+
+
+const myuser={
+
+    name:"jaideep",
+    profession:'trainee analyst',
+}
+
+const {name}= user
+console.log(name)
+
+//{
+    //"name":"sekahar",
+    //"key":"value",
+//}
