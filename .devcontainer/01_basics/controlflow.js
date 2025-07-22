@@ -171,6 +171,32 @@ coding2.forEach((i)=>{
 })
 
 
+const coding3=[{name:"ashish",
+    city:"dwarka"
+},{
+    name:"rameshwar",
+    city:"tamil nadu",
+
+},
+{
+    name:"keshari",
+    city:"mysore",
+}]
+
+coding3.forEach((item)=>{
+ console.log(item.name)
+})
+
+//console.log(item.name)  prints all name asish,rameshwar,keshari
+//console.log(coding3[0].name)prints ashish 3 times bcoz of for eachloop
+
+const coding4=["hari","ram","krishn"]
+coding4.forEach((item)=>{console.log(item)})
+
+coding4.filter((item)=>{
+    if(item.includes("r"))
+        return item
+})
 
 
 
